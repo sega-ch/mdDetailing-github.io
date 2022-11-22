@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>О нас</title>
+</head>
+<body>
+
+     <!-- modal -->
+
+     <div id="openModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Закажите обратный звонок</h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">    
+              
+                <input type="text" class="name" placeholder="Введите имя" >
+
+                <input type="text" class="number" placeholder="Введите номер телефона" data-role="input, input-mask" data-mask="+7 (__) ___-____">
+
+                <input type="submit" class="btn" value="Готово">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- modal -->
+
+    
+    <header class="header">
+
+        <div class="header-logo">
+            <a href="./index.html"> <div class="logo"><img class="logo-img" src="./photo/logo.png" alt=""></div> </a>
+        </div>
+
+        <nav class="navigation">
+            <p class="nav"><a class="nav-link" id="first-nav-link" href="./index.html">Главная</a></p>
+            <p class="nav"><a class="nav-link" id="first-nav-link" href="./services.html">Услуги</a></p>
+            <p class="nav"><a class="nav-link" href="./portfolio.html">Портфолио</a></p>
+            <p class="nav"><a class="nav-link" href="./about.html">О нас</a></p>
+            <p class="nav"><a class="nav-link" href="./contacts.html">Контакты</a></p>
+        </nav>
+
+        <div class="header-contacts">
+            <div class="instagram"> <a href="inst-link"><img src="./photo/inst.png" class="inst-img" alt=""></a> </div>
+            <div class="telegramm"> <a href="tg-link"><img src="./photo/telegram.png" class="tg-img" alt=""></a> </div>
+            <div class="call">
+                <p class="phone">8-900-000-00-00</p>
+                <p class="feedback"> <a href="#openModal" class="feedback-link">ЗАКАЗАТЬ ЗВОНОК</a> </p>
+            </div>
+            
+        </div>
+
+    </header>
+
+    <main class="content">
+
+        <section class="us-info">
+
+            <h1 class="title-us"> КТО МЫ ТАКИЕ </h1>
+
+            <p class="tell">
+                Мы MD Detailng Studio, работаем с 2019 года, наша геолакация г. Челябинск, Петра Сумиа 3к3. <br>
+                Наша команда состоит из профессионалов высочаешего уровня с опытом в данной сфере с начала её развития, а именно опыт работы каждого маcтера от 20 лет. <br>
+                Мы занимаемся оклейкой автомобилей, полировкой и тонировкой. Более подробно о спектре наших услуг смотри <a href="./services.html"> здесь. </a>
+                <br> Также советуем посмотреть <a href="#">наши работы!</a> 
+            </p>
+
+            <div class="pics">
+
+                <img src="./photo/street.jpg" alt="" class="into">
+
+                <img src="./photo/into.jpg" alt="" class="street">
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
