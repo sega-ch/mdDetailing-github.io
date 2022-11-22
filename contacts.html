@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacts.css">
+    <title>Контакты</title>
+</head>
+<body>
+
+     <!-- modal -->
+
+     <div id="openModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Закажите обратный звонок</h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">    
+              
+                <input type="text" class="name" placeholder="Введите имя" >
+
+                <input type="text" class="number" placeholder="Введите номер телефона" data-role="input, input-mask" data-mask="+7 (__) ___-____">
+
+                <input type="submit" class="btn" value="Готово">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- modal -->
+
+    
+    <header class="header">
+
+        <div class="header-logo">
+            <a href="./index.html"> <div class="logo"><img class="logo-img" src="./photo/logo.png" alt=""></div> </a>
+        </div>
+
+        <nav class="navigation">
+            <p class="nav"><a class="nav-link" id="first-nav-link" href="./index.html">Главная</a></p>
+            <p class="nav"><a class="nav-link" id="first-nav-link" href="./services.html">Услуги</a></p>
+            <p class="nav"><a class="nav-link" href="./portfolio.html">Портфолио</a></p>
+            <p class="nav"><a class="nav-link" href="./about.html">О нас</a></p>
+            <p class="nav"><a class="nav-link" href="./contacts.html">Контакты</a></p>
+        </nav>
+
+        <div class="header-contacts">
+            <div class="instagram"> <a href="inst-link"><img src="./photo/inst.png" class="inst-img" alt=""></a> </div>
+            <div class="telegramm"> <a href="tg-link"><img src="./photo/telegram.png" class="tg-img" alt=""></a> </div>
+            <div class="call">
+                <p class="phone">8-900-000-00-00</p>
+                <p class="feedback"> <a href="#openModal" class="feedback-link">ЗАКАЗАТЬ ЗВОНОК</a> </p>
+            </div>
+            
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="us-contacts">
+
+            <div class="contact-adres">
+    
+                <h1 class="ca-adress"> Связаться через E-mail </h1>
+    
+                <p class="ca-discription"> 
+                    Напишите на нашу почту, чтобы мы с вами связались. <br> 
+                    Укажите ваше имя, номер телефона и кратко опишите что вам нужно. <br>
+                    Мы ответим в течении суток и подробно вам всё расскажем!
+                </p>
+    
+                <h2 class="contact-type">
+                    Наша почта: MD_Detailing_Studio@yandex.ru
+                </h2>
+    
+            </div>
+            
+            <div class="contact-adres">
+    
+                <h1 class="ca-adress"> Связаться через контактный номер </h1>
+    
+                <p class="ca-discription"> 
+                    Позвоните на наш номер для незамедлительного ответа. <br> 
+                    Мы сразу подробно вам всё расскажем, подобрав идеальный для вас комплекс услуг!
+                </p>
+    
+                <h2 class="contact-type">
+                    Наш контактный номер: 89000000000
+                </h2>
+    
+            </div>
+    
+            <div class="contact-adres">
+                
+                <h1 class="ca-adress"> Связаться через соц. сети </h1>
+    
+                <p class="ca-discription"> 
+                    Также вы можете связаться с нами через telegram и instagram <br>
+                    Так мы сможем обсудить волнующие вас вопросы и выбрать верное решение.<br>
+                    Ответ поступит от 1 часа до 6 часов.
+                </p>
+    
+                <h2 class="contact-type">
+                    Наш telegram: @MD_Detailing_Studio <br>
+                    Наш instagram: MD Detailing studio 74
+                </h2>
+
+            </div>
+           
+    
+        </section>
+
+
+        <section class="map">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d569.5835558691772!2d61.26066835597153!3d55.17742344788642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c593be800e928b%3A0xdfd92560aed5a03c!2z0JzQvtC5INCh0LDQvA!5e0!3m2!1sru!2sru!4v1661113023024!5m2!1sru!2sru" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </section>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./modal.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="open">
+        <a href="#openModal">Открыть модальное окно</a>
+
+    </div>
+
+    <div id="openModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Закажите обратный звонок</h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">    
+              
+                <input type="text" class="name" placeholder="Введите имя" >
+
+                <input type="text" class="number" placeholder="Введите номер телефона" data-role="input, input-mask" data-mask="+7 (__) ___-____">
+
+                <input type="submit" class="btn" value="Готово">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
